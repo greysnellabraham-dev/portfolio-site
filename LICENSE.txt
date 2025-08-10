@@ -1,0 +1,22 @@
+EXCLUSIVE LICENSE AGREEMENT
+
+This Exclusive License ("Agreement") is made on this day by and between:
+
+Licensor: Greysnell Madariaga
+Licensee: Greysnell Madariaga
+
+Grant of Rights:
+The Licensor hereby grants to the Licensee an exclusive, worldwide, perpetual, transferable (optional), and royalty-free license to use, modify, distribute, publish, display, and exploit the website and all included source code, assets, and design ("the Work"). The Licensee is the sole person/entity permitted to use the Work commercially or non-commercially.
+
+Restrictions:
+No other person or entity may copy, use, reproduce, distribute, or claim ownership of the Work, nor create derivative works for commercial use without the express written permission of the Licensee.
+
+Warranty and Liability:
+The Work is provided "AS IS" without warranty of any kind. The Licensor does not assume liability for any indirect or consequential damages.
+
+Acceptance:
+By possessing this file, the Licensee acknowledges the exclusive license granted above.
+
+Signed:
+Greysnell Madariaga
+Date: 2025-08-10

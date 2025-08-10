@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portafolio - Greysnell Madariaga</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="brand">Greysnell Madariaga</div>
+      <ul>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="#portfolio">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h1>Diseños Web Profesionales</h1>
+      <p>Creo páginas modernas, responsivas y optimizadas para convertir visitantes en clientes.</p>
+      <a class="cta" href="#contact">Trabajemos juntos</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="container">
+      <h2>Sobre mí</h2>
+      <p>Soy un desarrollador web con atención al detalle, aprendizaje rápido y pasión por soluciones limpias y funcionales. Trabajo tanto en diseño visual como en implementaciones front-end eficientes.</p>
+    </section>
+
+    <section id="services" class="container">
+      <h2>Servicios</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Diseño responsivo</h3>
+          <p>Layouts adaptativos para móviles, tablet y desktop.</p>
+        </div>
+        <div class="card">
+          <h3>Optimización</h3>
+          <p>Mejora de rendimiento y SEO básico para mayor visibilidad.</p>
+        </div>
+        <div class="card">
+          <h3>Mantenimiento</h3>
+          <p>Actualizaciones, backups y soporte técnico continuado.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="container">
+      <h2>Portafolio</h2>
+      <p class="muted">Haz clic en cualquier proyecto para ver una vista previa.</p>
+      <div class="grid" id="projectsGrid">
+        <!-- Replace images/project files with your real images -->
+        <figure class="project" data-title="Tienda Online - Proyecto 1" data-desc="Ecommerce completo, integración de pagos, responsive">
+          <img src="img/proyecto1.jpg" alt="Proyecto 1">
+          <figcaption>Proyecto 1 — Tienda Online</figcaption>
+        </figure>
+        <figure class="project" data-title="Landing Page - Proyecto 2" data-desc="Landing enfocada en conversión, A/B testing">
+          <img src="img/proyecto2.jpg" alt="Proyecto 2">
+          <figcaption>Proyecto 2 — Landing Page</figcaption>
+        </figure>
+        <figure class="project" data-title="Blog Personal - Proyecto 3" data-desc="Blog con CMS, optimizado para velocidad">
+          <img src="img/proyecto3.jpg" alt="Proyecto 3">
+          <figcaption>Proyecto 3 — Blog</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Contacto</h2>
+      <p>¿Listo para comenzar? Escríbeme un mensaje o usa WhatsApp.</p>
+
+      <div class="contact-grid">
+        <form id="contactForm">
+          <label>Nombre
+            <input type="text" name="name" required>
+          </label>
+          <label>Email
+            <input type="email" name="email" required>
+          </label>
+          <label>Mensaje
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <div class="form-row">
+            <button type="submit" class="btn">Enviar mensaje</button>
+            <a class="btn ghost" href="https://wa.me/559999999999" target="_blank">WhatsApp</a>
+          </div>
+          <p class="small muted">Este formulario usa "mailto:" por defecto. Para un formulario funcional sin servidor, integra Formspree o Netlify Forms (ver README).</p>
+        </form>
+
+        <aside class="contact-info">
+          <h3>Contacto directo</h3>
+          <p>📧 <a href="mailto:tucorreo@example.com">tucorreo@example.com</a></p>
+          <p>📱 WhatsApp: <a href="https://wa.me/559999999999">+55 99999-9999</a></p>
+          <p>💼 LinkedIn: <a href="https://linkedin.com/in/greysnell">greysnell</a></p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Greysnell Madariaga — Diseño y desarrollo web</p>
+  </footer>
+
+  <!-- Modal preview -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button id="modalClose" class="modal-close" aria-label="Cerrar">&times;</button>
+      <img id="modalImg" src="" alt="">
+      <h3 id="modalTitle"></h3>
+      <p id="modalDesc"></p>
+      <a id="modalLink" class="btn" href="#" target="_blank">Ver proyecto</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
